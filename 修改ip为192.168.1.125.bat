@@ -1,0 +1,1 @@
+netsh interface ip set address "本地连接" static 192.168.1.125 255.255.255.0 
