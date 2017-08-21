@@ -10,7 +10,6 @@ start "" "F:\abc\BANDIZIP-SETUP.exe"
 start "" "F:\abc\AltDrag.exe"
 @rem start "" "F:\abc\115br_v7.2.4.37.exe"
 start "" "F:\abc\flux-setup.exe"
-call "C:\Users\Administrator\Desktop\快捷操作及说明\设置ip自动获取.bat"
+call "C:\Users\Administrator\Desktop\蹇嵎鎿嶄綔鍙婅鏄嶾璁剧疆ip鑷姩鑾峰彇.bat"
 start "" "D:\ProgramsFiles\ruijie\Ruijie Supplicant\RuijieSupplicant.exe"
 @rem F:
-@rem F:\迅雷下载\コスプレ一本勝負\okusuri_009[cmpfans].mp4.bt.td|| F:\迅雷下载\コスプレ一本勝負\vol.74[cmpfans].mp4.bt.td
