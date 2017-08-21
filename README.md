@@ -3,8 +3,6 @@
 
 内容表
 ========
-[toc]
-
 -home
 -modified
 -宿舍
