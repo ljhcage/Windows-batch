@@ -4,7 +4,7 @@
 内容表
 ========
 - [home](home.bat)-用于家里的开机自启动
-- [hashcheck](check.bat)-用于hash文件，使用MD5，SHA-1，SHA-256，SHA-512四种算法，基于powershell，注释里面包含python的方法，但是python会一次性将文件读取到内存，对大文件不友好
+- [hashcheck](check.bat)-用于hash文件，使用MD5，SHA-1，SHA-256，SHA-512四种算法，基于powershell，注释里面包含python的方法，但是python会一次性将文件读取到内存，对大文件不友好，包含输入引导信息，需要保存为GBK编码
 - [宿舍](宿舍.bat)-用于在宿舍的开机自启动，含有一定的错误提示功能
 - [教室](教室.bat)-用于教室学习时的开机自启动
 - [modified](modified.bat)-用于去除csv文件中的无效数据，并另存为`filename`+modified
