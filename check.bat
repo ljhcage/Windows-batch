@@ -1,6 +1,6 @@
 @echo off
 :start
-echo 请输入文件名
+echo 璇疯緭鍏ユ枃浠跺悕
 set /p filename=
 if /i %filename% EQU exit exit
 @rem echo MD5
@@ -11,6 +11,9 @@ if /i %filename% EQU exit exit
 @rem python -c "import hashlib,sys;print hashlib.sha256(open(sys.argv[1],'rb').read()).hexdigest()" %filename%
 @rem echo SHA-512
 @rem python -c "import hashlib,sys;print hashlib.sha512(open(sys.argv[1],'rb').read()).hexdigest()"  %filename%
+certutil -hashfile %filename%  MD5
+certutil -hashfile %filename%  SHA1
+certutil -hashfile %filename%  SHA256
 powershell "Get-FileHash %filename% -Algorithm MD5 | Format-List"
 powershell "Get-FileHash %filename% -Algorithm SHA1 | Format-List"
 powershell "Get-FileHash %filename% -Algorithm SHA256 | Format-List"
